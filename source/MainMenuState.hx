@@ -32,7 +32,7 @@ class MainMenuState extends MusicBeatState
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
 	
-	var optionShit:Array<String> = ['story_mode', 'freeplay', 'extras', 'awards', 'options'];
+	var optionShit:Array<String> = ['story_mode', 'freeplay', 'extras', 'options'];
 
 	var char:FlxSprite;
 	var backdrop:FlxBackdrop;
@@ -124,7 +124,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("Comic Sans MS", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
-		var watermarkMenuTxt:FlxText = new FlxText(12, FlxG.height - 64, 0, "Strident Crisis V1.5", 12);
+		var watermarkMenuTxt:FlxText = new FlxText(12, FlxG.height - 64, 0, "", 12);
 		watermarkMenuTxt.scrollFactor.set();
 		watermarkMenuTxt.setFormat("Comic Sans MS", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(watermarkMenuTxt);
